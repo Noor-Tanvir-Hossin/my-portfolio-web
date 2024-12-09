@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutImg from '../../assets/7358653-removebg-preview.png';
-import { IoMdArrowForward } from "react-icons/io";
+
 import Download from '../Download/Download';
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
 
                     <ul>
                         <div className='flex gap-3 py-4'>
-                        {/* <IoMdArrowForward size={30} className='mt-1' /> */}
+                       
 
                         <span className='96 flex flex-col'>
                             <h1 className='text-xl md:text-3xl font-semibold leading-normal'>MERN Stack Developer</h1>
