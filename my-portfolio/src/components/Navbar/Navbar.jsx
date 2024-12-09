@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
     const  [menu,setMenu]=useState(false)
@@ -28,7 +28,7 @@ const Navbar = () => {
       {
         showMenu ? <IoCloseOutline size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" onClick={()=>{
             setMenu(!menu); setShowMenu(!showMenu)
-        }} /> : <RxHamburgerMenu size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" onClick={()=>{
+        }} /> : <GiHamburgerMenu size={30} className="md:hidden absolute right-10 top-6 transition-all duration-300" onClick={()=>{
             setMenu(!menu); setShowMenu(!showMenu)
         }} />
       }
